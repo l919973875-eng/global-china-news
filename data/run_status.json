@@ -1,16 +1,20 @@
 {
-  "started_at": "2026-08-13T09:55:06.532678+00:00",
-  "finished_at": "2026-08-13T09:58:06.363511+00:00",
+  "started_at": "2026-08-13T10:01:59.798088+00:00",
+  "finished_at": "2026-08-13T10:04:24.399138+00:00",
   "sources_scanned": 311,
-  "items_seen": 8774,
-  "items_new": 7080,
-  "items_relevant": 76,
-  "stored_articles": 1880,
-  "errors": 75,
+  "items_seen": 8752,
+  "items_new": 7058,
+  "items_relevant": 60,
+  "stored_articles": 1896,
+  "errors": 76,
   "error_samples": [
     {
       "source": "The Economist",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Financial Times",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "POLITICO",
@@ -21,16 +25,16 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.bloomberg.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Financial Times",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "Axios",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.axios.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "NPR",
+      "error": "HTTPStatusError: Client error '402 Payment Required' for url 'https://www.npr.org/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402"
     },
     {
       "source": "The Hill",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thehill.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "Axios",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.axios.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "National Review",
@@ -53,10 +57,6 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.liberation.fr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "El País",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://elpais.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "Hungary Today",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://hungarytoday.hu/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -77,6 +77,10 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.hina.hr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
+      "source": "BTA",
+      "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.bta.bg/en' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
       "source": "Ekathimerini",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ekathimerini.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -85,16 +89,12 @@
       "error": "HTTPStatusError: Client error '401 Unauthorized' for url 'https://www.rbc.ru/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     },
     {
-      "source": "News.am",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://news.am/eng/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "Trend News Agency",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://en.trend.az/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "BTA",
-      "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.bta.bg/en' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "source": "News.am",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://news.am/eng/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "The Indian Express",
